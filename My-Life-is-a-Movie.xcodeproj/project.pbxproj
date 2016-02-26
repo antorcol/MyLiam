@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2414C8FE1C7AB3A10030B861 /* AddMovieToSceneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2414C8FD1C7AB3A10030B861 /* AddMovieToSceneVC.swift */; };
+		2414C9001C7EAD720030B861 /* UILabelAutoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2414C8FF1C7EAD720030B861 /* UILabelAutoSize.swift */; };
 		245CE63A1C72CC470083DAA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CE6391C72CC470083DAA8 /* AppDelegate.swift */; };
-		245CE63C1C72CC470083DAA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CE63B1C72CC470083DAA8 /* ViewController.swift */; };
+		245CE63C1C72CC470083DAA8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CE63B1C72CC470083DAA8 /* MainViewController.swift */; };
 		245CE63F1C72CC470083DAA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245CE63D1C72CC470083DAA8 /* Main.storyboard */; };
 		245CE6421C72CC470083DAA8 /* My_Life_is_a_Movie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 245CE6401C72CC470083DAA8 /* My_Life_is_a_Movie.xcdatamodeld */; };
 		245CE6441C72CC470083DAA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245CE6431C72CC470083DAA8 /* Assets.xcassets */; };
 		245CE6471C72CC470083DAA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245CE6451C72CC470083DAA8 /* LaunchScreen.storyboard */; };
+		245CE6501C72CC6E0083DAA8 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 245CE64F1C72CC6E0083DAA8 /* README */; };
+		245CE6551C73DB4D0083DAA8 /* Skia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 245CE6541C73DB4D0083DAA8 /* Skia.ttf */; };
+		248603E31C73EB15005DC9B7 /* SceneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248603E21C73EB15005DC9B7 /* SceneCell.swift */; };
+		248603E51C73ED35005DC9B7 /* ScenePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248603E41C73ED35005DC9B7 /* ScenePost.swift */; };
+		248603EE1C767070005DC9B7 /* Scene+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248603EC1C767070005DC9B7 /* Scene+CoreDataProperties.swift */; };
+		248603EF1C767070005DC9B7 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248603ED1C767070005DC9B7 /* Scene.swift */; };
+		248603F11C768582005DC9B7 /* SceneDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248603F01C768582005DC9B7 /* SceneDetailsVC.swift */; };
+		248603F31C7685CA005DC9B7 /* CreateSceneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248603F21C7685CA005DC9B7 /* CreateSceneVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2414C8FD1C7AB3A10030B861 /* AddMovieToSceneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieToSceneVC.swift; sourceTree = "<group>"; };
+		2414C8FF1C7EAD720030B861 /* UILabelAutoSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelAutoSize.swift; sourceTree = "<group>"; };
 		245CE6361C72CC470083DAA8 /* My-Life-is-a-Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My-Life-is-a-Movie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		245CE6391C72CC470083DAA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		245CE63B1C72CC470083DAA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		245CE6391C72CC470083DAA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "My-Life-is-a-Movie/AppDelegate.swift"; sourceTree = "<group>"; };
+		245CE63B1C72CC470083DAA8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "My-Life-is-a-Movie/MainViewController.swift"; sourceTree = "<group>"; };
 		245CE63E1C72CC470083DAA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		245CE6411C72CC470083DAA8 /* My_Life_is_a_Movie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Life_is_a_Movie.xcdatamodel; sourceTree = "<group>"; };
 		245CE6431C72CC470083DAA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		245CE6461C72CC470083DAA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		245CE6481C72CC470083DAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245CE64F1C72CC6E0083DAA8 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		245CE6541C73DB4D0083DAA8 /* Skia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skia.ttf; sourceTree = "<group>"; };
+		248603E21C73EB15005DC9B7 /* SceneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneCell.swift; sourceTree = "<group>"; };
+		248603E41C73ED35005DC9B7 /* ScenePost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenePost.swift; sourceTree = "<group>"; };
+		248603EC1C767070005DC9B7 /* Scene+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scene+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		248603ED1C767070005DC9B7 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		248603F01C768582005DC9B7 /* SceneDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDetailsVC.swift; sourceTree = "<group>"; };
+		248603F21C7685CA005DC9B7 /* CreateSceneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateSceneVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +60,11 @@
 		245CE62D1C72CC470083DAA8 = {
 			isa = PBXGroup;
 			children = (
-				245CE6381C72CC470083DAA8 /* My-Life-is-a-Movie */,
+				245CE6521C73A38A0083DAA8 /* controller */,
+				245CE6531C73A3A10083DAA8 /* model */,
+				245CE6511C73A3730083DAA8 /* view */,
+				245CE64E1C72CC580083DAA8 /* General */,
+				245CE6381C72CC470083DAA8 /* assets */,
 				245CE6371C72CC470083DAA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +77,57 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		245CE6381C72CC470083DAA8 /* My-Life-is-a-Movie */ = {
+		245CE6381C72CC470083DAA8 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				245CE6541C73DB4D0083DAA8 /* Skia.ttf */,
+				245CE6431C72CC470083DAA8 /* Assets.xcassets */,
+				245CE6481C72CC470083DAA8 /* Info.plist */,
+			);
+			name = assets;
+			path = "My-Life-is-a-Movie";
+			sourceTree = "<group>";
+		};
+		245CE64E1C72CC580083DAA8 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				245CE64F1C72CC6E0083DAA8 /* README */,
+				2414C8FF1C7EAD720030B861 /* UILabelAutoSize.swift */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		245CE6511C73A3730083DAA8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				245CE63D1C72CC470083DAA8 /* Main.storyboard */,
+				245CE6451C72CC470083DAA8 /* LaunchScreen.storyboard */,
+				248603E21C73EB15005DC9B7 /* SceneCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		245CE6521C73A38A0083DAA8 /* controller */ = {
 			isa = PBXGroup;
 			children = (
 				245CE6391C72CC470083DAA8 /* AppDelegate.swift */,
-				245CE63B1C72CC470083DAA8 /* ViewController.swift */,
-				245CE63D1C72CC470083DAA8 /* Main.storyboard */,
-				245CE6431C72CC470083DAA8 /* Assets.xcassets */,
-				245CE6451C72CC470083DAA8 /* LaunchScreen.storyboard */,
-				245CE6481C72CC470083DAA8 /* Info.plist */,
+				245CE63B1C72CC470083DAA8 /* MainViewController.swift */,
+				248603F01C768582005DC9B7 /* SceneDetailsVC.swift */,
+				248603F21C7685CA005DC9B7 /* CreateSceneVC.swift */,
+				2414C8FD1C7AB3A10030B861 /* AddMovieToSceneVC.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		245CE6531C73A3A10083DAA8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				248603EC1C767070005DC9B7 /* Scene+CoreDataProperties.swift */,
+				248603ED1C767070005DC9B7 /* Scene.swift */,
+				248603E41C73ED35005DC9B7 /* ScenePost.swift */,
 				245CE6401C72CC470083DAA8 /* My_Life_is_a_Movie.xcdatamodeld */,
 			);
-			path = "My-Life-is-a-Movie";
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +189,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245CE6501C72CC6E0083DAA8 /* README in Resources */,
+				245CE6551C73DB4D0083DAA8 /* Skia.ttf in Resources */,
 				245CE6471C72CC470083DAA8 /* LaunchScreen.storyboard in Resources */,
 				245CE6441C72CC470083DAA8 /* Assets.xcassets in Resources */,
 				245CE63F1C72CC470083DAA8 /* Main.storyboard in Resources */,
@@ -139,8 +204,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248603E51C73ED35005DC9B7 /* ScenePost.swift in Sources */,
+				2414C9001C7EAD720030B861 /* UILabelAutoSize.swift in Sources */,
+				248603E31C73EB15005DC9B7 /* SceneCell.swift in Sources */,
+				248603EE1C767070005DC9B7 /* Scene+CoreDataProperties.swift in Sources */,
+				248603F31C7685CA005DC9B7 /* CreateSceneVC.swift in Sources */,
 				245CE6421C72CC470083DAA8 /* My_Life_is_a_Movie.xcdatamodeld in Sources */,
-				245CE63C1C72CC470083DAA8 /* ViewController.swift in Sources */,
+				248603F11C768582005DC9B7 /* SceneDetailsVC.swift in Sources */,
+				248603EF1C767070005DC9B7 /* Scene.swift in Sources */,
+				2414C8FE1C7AB3A10030B861 /* AddMovieToSceneVC.swift in Sources */,
+				245CE63C1C72CC470083DAA8 /* MainViewController.swift in Sources */,
 				245CE63A1C72CC470083DAA8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +227,7 @@
 				245CE63E1C72CC470083DAA8 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "My-Life-is-a-Movie";
 			sourceTree = "<group>";
 		};
 		245CE6451C72CC470083DAA8 /* LaunchScreen.storyboard */ = {
@@ -162,6 +236,7 @@
 				245CE6461C72CC470083DAA8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "My-Life-is-a-Movie";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -255,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "My-Life-is-a-Movie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.atc.learning.My-Life-is-a-Movie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -266,6 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "My-Life-is-a-Movie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.atc.learning.My-Life-is-a-Movie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,6 +368,7 @@
 				245CE64D1C72CC470083DAA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -301,7 +379,8 @@
 				245CE6411C72CC470083DAA8 /* My_Life_is_a_Movie.xcdatamodel */,
 			);
 			currentVersion = 245CE6411C72CC470083DAA8 /* My_Life_is_a_Movie.xcdatamodel */;
-			path = My_Life_is_a_Movie.xcdatamodeld;
+			name = My_Life_is_a_Movie.xcdatamodeld;
+			path = "My-Life-is-a-Movie/My_Life_is_a_Movie.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
