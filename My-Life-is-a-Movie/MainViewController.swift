@@ -11,10 +11,12 @@ import CoreData
 
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    //MARK: Vars and Outlets
     @IBOutlet weak var tvMyScenes: UITableView!
     
     var scenes = [Scene]()
-    
+
+    //MARK: Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,6 +37,15 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidAppear(animated: Bool) {
         fetchAndSetResults()
         tvMyScenes.reloadData()
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "SceneDetails" {
+            let destinationController = segue.destinationViewController as! SceneDetailsVC
+            let indexPath = tvMyScenes.indexPathForSelectedRow!
+            let scene = scenes[indexPath.row]
+            destinationController.sceneOfInterest = scene
+        }
     }
     
     //MARK: Utility
@@ -74,29 +85,14 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             cell.configureCell(scene)
             return cell
         } else {
-            //TODO: configure the blank cell, or throw an exception.
+            //TODO: configure the blank cell with default text, or
+            //      return nil, and handle that
+            //  Both these options require editing the row
             return SceneCell()
         }
     }
     
-    //MARK: Added features
-   // func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-   //     var i: Int = 2
-        
-   // }
     
-    
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "SceneDetails" {
-            let destinationController = segue.destinationViewController as! SceneDetailsVC
-            let indexPath = tvMyScenes.indexPathForSelectedRow!
-            let scene = scenes[indexPath.row]
-            destinationController.sceneOfInterest = scene
-        }
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
 
     
 }

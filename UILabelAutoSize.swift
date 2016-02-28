@@ -8,6 +8,13 @@
 
 import UIKit
 
+/*
+    Added this label class to handle sizing and positioning issues 
+    with the dsecription label on rotation in the Scene Details VC.
+
+    Make sure the label numberOfLines to 0 in XCode
+
+*/
 class UILabelAutoSize: UILabel {
 
     override func layoutSubviews() {
@@ -17,9 +24,6 @@ class UILabelAutoSize: UILabel {
         // 2. Now the frame is set we can get the correct width
         // and set it to the preferredMaxLayoutWidth.
         self.preferredMaxLayoutWidth = self.frame.width
-        
-        // 3. Make sure the label numberOfLines to 0 in XCode
-        
     }
 
 }

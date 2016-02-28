@@ -3,9 +3,6 @@ My Liam (My Life Is A Movie) is an iPhone application that lets you record those
 quirky moments in your life that can only happen in the movies -- but they
 happened to you.
 
-You can also add a pointer to the movie (on Rotten Tomatoes) that your scene
-righly belongs in.
-
 
 -- System Requirements ---
 The application runs on any iPhone or iPad device.
@@ -14,9 +11,20 @@ The application runs on any iPhone or iPad device.
 -- Logo --
 Logo based on an original courtesy of Silverscreenpictures (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0) or GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons
 
--- colors --
-//camel
-//let myNavColor = UIColor.init(red: 227/255, green: 201/255, blue: 188/255, alpha: 1.0)
-//white
-//let myNavColor = UIColor.init(red: 247/255, green: 247/255, blue: 237/255, alpha: 1.0)
+  TODO: The AppIcon is a bit hard to see. Need to re do with darker color scheme
 
+-- color palette --
+white 247 247 237
+pink 227 201 188
+violet 202 209 217
+gray 212 213 205
+camel 199 169 131
+bronze 89 86 79
+
+-- Font --
+Right now using Helvetica Neue. The logo uses something very close to Skia. I have
+added this ttf to the project, but it looked less than acceptable in the simulator.
+
+TODO: Check Skia on actual devices to assess quality.
+
+Copyright (c) Anthony Torrero Collins.

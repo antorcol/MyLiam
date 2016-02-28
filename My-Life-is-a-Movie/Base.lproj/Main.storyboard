@@ -203,13 +203,6 @@
                                             <action selector="btnAddPhoto_Press:" destination="azb-tP-NoF" eventType="touchUpInside" id="iq7-Z8-CTg"/>
                                         </connections>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SK2-f6-UIh">
-                                        <rect key="frame" x="471" y="456" width="113" height="30"/>
-                                        <state key="normal" title=" TODO: Add Movie Link "/>
-                                        <connections>
-                                            <segue destination="Zwt-ob-yzB" kind="show" id="nD4-rx-xCi"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="RvQ-NG-HC8" firstAttribute="height" secondItem="AHi-5G-4B4" secondAttribute="height" id="0f1-sn-Rhq"/>
@@ -275,44 +268,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lF9-OT-wHW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="697" y="396"/>
-        </scene>
-        <!--Movie Link-->
-        <scene sceneID="yzQ-DE-BzX">
-            <objects>
-                <viewController id="Zwt-ob-yzB" customClass="AddMovieToSceneVC" customModule="My_Life_is_a_Movie" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JKT-S8-5gO"/>
-                        <viewControllerLayoutGuide type="bottom" id="9gi-Na-3QE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Jz3-3h-qvb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BaseBackground" translatesAutoresizingMaskIntoConstraints="NO" id="pZY-9L-qhd">
-                                <rect key="frame" x="0.0" y="94" width="600" height="506"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mli-sU-Pvw">
-                                <rect key="frame" x="180" y="102" width="240" height="80"/>
-                                <state key="normal" title="Search Rotten Tomatoes"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="9gi-Na-3QE" firstAttribute="top" secondItem="pZY-9L-qhd" secondAttribute="bottom" id="7cp-Gt-yhO"/>
-                            <constraint firstAttribute="trailing" secondItem="pZY-9L-qhd" secondAttribute="trailing" id="B6i-1q-tb0"/>
-                            <constraint firstItem="pZY-9L-qhd" firstAttribute="top" secondItem="JKT-S8-5gO" secondAttribute="bottom" id="N2N-bR-56a"/>
-                            <constraint firstItem="mli-sU-Pvw" firstAttribute="centerX" secondItem="Jz3-3h-qvb" secondAttribute="centerX" id="TaY-H7-U1a"/>
-                            <constraint firstItem="pZY-9L-qhd" firstAttribute="leading" secondItem="Jz3-3h-qvb" secondAttribute="leading" id="XZp-SQ-sm8"/>
-                            <constraint firstItem="mli-sU-Pvw" firstAttribute="top" secondItem="JKT-S8-5gO" secondAttribute="bottom" constant="8" id="dL4-gh-ug1"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Movie Link" prompt="(My Life Is A Movie)" id="CNx-Cd-GI7">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="zxV-bq-8d1"/>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Bf-Rq-0pJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1417" y="396"/>
         </scene>
         <!--Scene Details-->
         <scene sceneID="11h-yE-Hbx">

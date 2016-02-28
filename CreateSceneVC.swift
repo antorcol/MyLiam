@@ -18,6 +18,7 @@ import CoreData
 */
 class CreateSceneVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    //MARK: Vars and Outlets
     
     @IBOutlet weak var sceneScroller: UIScrollView!
     @IBOutlet weak var txtSceneTitle: UITextField!
@@ -27,6 +28,7 @@ class CreateSceneVC: UIViewController, UIImagePickerControllerDelegate, UINaviga
     
     var imagePicker: UIImagePickerController!
     
+    //MARK: Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -53,10 +55,7 @@ class CreateSceneVC: UIViewController, UIImagePickerControllerDelegate, UINaviga
 
  
     
-    // MARK: - Navigation
-    
-
-    //TODO: Change to select movie.
+    // MARK: - IBActions
     @IBAction func btnSave_Press(sender: UIBarButtonItem) {
         
         let app = UIApplication.sharedApplication().delegate as! AppDelegate
@@ -79,8 +78,7 @@ class CreateSceneVC: UIViewController, UIImagePickerControllerDelegate, UINaviga
         }
         
         self.navigationController?.popViewControllerAnimated(true)
-        
-        
+
     }
     
     /* 
@@ -89,14 +87,14 @@ class CreateSceneVC: UIViewController, UIImagePickerControllerDelegate, UINaviga
     @IBAction func btnAddPhoto_Press(btn: UIButton) {
         
         //remove the 'add new' caption
-        //TODO: first x chars of the image name?
         btn.setTitle("", forState: .Normal)
         
         //shell the image picker
         presentViewController(imagePicker, animated: true, completion: nil)
+
+        //TODO: on success, present the first x chars of the image name (including the placeholder)
         
     }
-    
     
     @IBAction func txtDateOfScene(sender: UITextField) {
         
@@ -106,6 +104,10 @@ class CreateSceneVC: UIViewController, UIImagePickerControllerDelegate, UINaviga
         datePickerView.addTarget(self, action: "datePickerViewChanged:", forControlEvents: .ValueChanged)
     }
     
+    //MARK: Utility
+    /*
+        Automatically add the date value to the text box.
+    */
     func datePickerViewChanged(sender:UIDatePicker) {
         
         let dateFormatter = NSDateFormatter()

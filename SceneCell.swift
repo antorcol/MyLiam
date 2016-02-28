@@ -64,17 +64,8 @@ class SceneCell: UITableViewCell {
             self.lblSceneDesc.text = limitString(tmpDesc, limit: DESC_MAX)
         }
         
-  
-        //TODO: Format the date time string just for short date
-//        let dateFormatter = NSDateFormatter()
-//        dateFormatter.dateStyle = NSDateFormatterStyle.ShortStyle
-//        dateFormatter.timeStyle = NSDateFormatterStyle.NoStyle
-//        
-//        if let nDate = dateFormatter.dateFromString(scene.dateShot!) {
-//            self.lblDateShot.text = dateFormatter.stringFromDate(nDate)
-//        } else {
-            self.lblDateShot.text = scene.dateShot
-//        }
+        //date
+        self.lblDateShot.text = scene.dateShot
         
         //image
         self.imgScene.image = scene.getSceneImage()

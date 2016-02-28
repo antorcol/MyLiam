@@ -14,6 +14,8 @@ import CoreData
 */
 class SceneDetailsVC: UIViewController {
 
+    //MARK: Vars and Outlets
+    
     let HEIGHT_OFFSET = CGFloat(10)
     let FRAME_DOWNSHIFT = CGFloat(19)
     let WIDTH_OFFSET = CGFloat(32)
@@ -28,6 +30,7 @@ class SceneDetailsVC: UIViewController {
     @IBOutlet weak var sceneDesc: UILabel!
     @IBOutlet weak var scenePhoto: UIImageView!
     
+    //MARK: Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -48,7 +51,6 @@ class SceneDetailsVC: UIViewController {
         sceneBack.clipsToBounds = true
         
     }
-
     
     override func didRotateFromInterfaceOrientation(fromInterfaceOrientation: UIInterfaceOrientation) {
         
@@ -61,6 +63,7 @@ class SceneDetailsVC: UIViewController {
         fixSizesOfComponents()
     }
 
+    //MARK: Utility
     /*
         Because of the difference in size classes in landscape and portrait, 
         there is some adjustment to the scroll view and the scene background
@@ -69,12 +72,12 @@ class SceneDetailsVC: UIViewController {
         Even with this, there is a 1x1-pixel shift toward the upper left on showing this 
         view.
         
-        TODO: Resolve the margin differences
     
         Also, the margins of the main screen are wider than on this screen. 
 
-        TODO: Resolve the shift
     */
+    //TODO: Resolve the margin differences
+    //TODO: Resolve the shift
     func fixSizesOfComponents() {
         let contentWidth = self.sceneScroller.bounds.width
         let contentHeightScroller = self.sceneScroller.bounds.height

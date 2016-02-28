@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2414C8FE1C7AB3A10030B861 /* AddMovieToSceneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2414C8FD1C7AB3A10030B861 /* AddMovieToSceneVC.swift */; };
 		2414C9001C7EAD720030B861 /* UILabelAutoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2414C8FF1C7EAD720030B861 /* UILabelAutoSize.swift */; };
 		245CE63A1C72CC470083DAA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CE6391C72CC470083DAA8 /* AppDelegate.swift */; };
 		245CE63C1C72CC470083DAA8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CE63B1C72CC470083DAA8 /* MainViewController.swift */; };
@@ -26,7 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2414C8FD1C7AB3A10030B861 /* AddMovieToSceneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieToSceneVC.swift; sourceTree = "<group>"; };
 		2414C8FF1C7EAD720030B861 /* UILabelAutoSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelAutoSize.swift; sourceTree = "<group>"; };
 		245CE6361C72CC470083DAA8 /* My-Life-is-a-Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My-Life-is-a-Movie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		245CE6391C72CC470083DAA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "My-Life-is-a-Movie/AppDelegate.swift"; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 				245CE63B1C72CC470083DAA8 /* MainViewController.swift */,
 				248603F01C768582005DC9B7 /* SceneDetailsVC.swift */,
 				248603F21C7685CA005DC9B7 /* CreateSceneVC.swift */,
-				2414C8FD1C7AB3A10030B861 /* AddMovieToSceneVC.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -212,7 +209,6 @@
 				245CE6421C72CC470083DAA8 /* My_Life_is_a_Movie.xcdatamodeld in Sources */,
 				248603F11C768582005DC9B7 /* SceneDetailsVC.swift in Sources */,
 				248603EF1C767070005DC9B7 /* Scene.swift in Sources */,
-				2414C8FE1C7AB3A10030B861 /* AddMovieToSceneVC.swift in Sources */,
 				245CE63C1C72CC470083DAA8 /* MainViewController.swift in Sources */,
 				245CE63A1C72CC470083DAA8 /* AppDelegate.swift in Sources */,
 			);
